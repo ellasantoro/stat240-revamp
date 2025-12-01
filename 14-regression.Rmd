@@ -562,7 +562,7 @@ Suppose we have a new period of time with mean temperature 30°F. What would our
 b0 + b1*30
 ```
 
-We can also check this with `predict()`, which is a generic function that calles `predict.lm()`. Using this function, we can easily make several new predictions at once. Suppose we wish to see average consumption predictions for temperatures 30,40,...,70°F:
+We can also check this with `predict()`, which is a generic function that calls `predict.lm()`. Using this function, we can easily make several new predictions at once. Suppose we wish to see average consumption predictions for temperatures 30,40,...,70°F:
 
 ```{r}
 # predict() expects lm object + data frame with new X values in column of same name
